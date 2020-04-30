@@ -1,6 +1,5 @@
 body {
   text-align: center;
-  font-family: 'Catamaran', sans-serif;
 }
 
 /* container fluid */
@@ -135,6 +134,15 @@ i.sm-icon {
 
 /* media queries */
 @media (max-width: 1000px) {
+  body {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+
   #title {
     text-align: center;
   }
