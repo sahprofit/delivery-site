@@ -1,0 +1,162 @@
+body {
+  text-align: center;
+}
+
+/* container fluid */
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.container-fluide {
+  padding: 0 15%;
+}
+
+/* container */
+.container {
+  text-align: left;
+  padding: 3% 0 0;
+}
+
+/* navigation */
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+a.nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: 'Lobster Two', cursive;
+  font-weight: bolder;
+}
+
+.phone-number-container {
+  background-color: #FFA41B;
+  padding: 0.5%;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 40px;
+  color: #005082;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+.title-image {
+  width: 93%;
+}
+
+/* about us section */
+.about-us-container {
+  text-align: left;
+  padding: 0 0 2%;
+}
+
+.key-point {
+  color: #FFA41B;
+  font-weight: bolder;
+}
+
+/* our services and features section */
+.card-img-top {
+  width: 100%;
+}
+
+.card-title {
+  margin: 2% 0;
+}
+
+/* sections */
+.colored-section {
+  background-color: #005082;
+  color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  padding-top: 15%;
+  font-family: 'Marcellus', serif;
+}
+
+.section-heading {
+  display: inline-block;
+  color: #00ABCC;
+  border-bottom: 2px solid #FFA41B;
+  margin: 0 0 3%;
+}
+
+.unique-h2 {
+  margin: 0 0 4%;
+}
+
+/* contact us */
+.form-container {
+  text-align: left;
+}
+
+.submit-button {
+  background-color: #00ABCC;
+  color: #fff;
+}
+
+#tracking-form {
+  text-align: left;
+}
+
+/* footer */
+#footer {
+  background-color: #00ABCC;
+  padding: 3% 4%;
+  color: #FFF;
+}
+
+.developer-img {
+  margin-left: 4%;
+  border-radius: 100px;
+}
+
+/* fontawesome icons */
+i.sm-icon {
+  padding: 1.5% 3%;
+  color: #fff;
+}
+
+/* media queries */
+@media (max-width: 1000px) {
+  body {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .about-us-container {
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .phone-number-container {
+    top: 20px;
+    text-align: center;
+  }
+}
